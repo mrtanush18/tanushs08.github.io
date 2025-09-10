@@ -42,7 +42,7 @@
 						<br />
 						<br />
 						<br />
-						<p>Aspiring data professional with a strong foundation in business analysis and a passion
+						<p>Aspiring data professional with a strong foundation in data analysis and a passion
 							for driving business growth through data-driven insights. </p>
 						<p>
 							This portfolio highlights my journey & projects to see how I created visualizations to
@@ -106,11 +106,7 @@
 								<h2>The Sparks Foundation</h2>
 								<h3>Business Analyst Intern</h3>
 								<small>June 2023-July 2023</small>
-								<li>Devised a predictive linear regression model to estimate students' academic
-									performance based on number of study hours with 97% accuracy.
-								</li>
-								<li>Employed Tableau for exploratory data analysis, pinpointing 2-3 underperforming
-									areas within the retail store dataset.
+								<li>Delivered Tableau dashboard on 100K+ records that exposed $2M in underperforming categories, directly informing leadership strategy.
 								</li>
 								<span class="left-container-arrow"></span>
 							</div>
@@ -124,17 +120,20 @@
 								<h2>Axis Bank</h2>
 								<h3>Data Analyst</h3>
 								<small>July 2022 - April 2023</small>
-								<li>Collaborated with the product & analytics teams to review KPIs like credit & debit
-									transactions/month, preferred payment application and brought down data analysis
-									time by 16%.
+								<li>
+									Built ETL pipelines to streamline financial data integration and reporting.
 								</li>
-								<li> Developed a Python script to automate raw customer data collection from a SQL
-									database and generate a readable Excel report after processing said data, leading to
-									over 10 manual hours saved weekly.
+								<li> 
+									Developed Tableau dashboards with Python integration for real-time financial insights.
 								</li>
-								<li>Built user interactive dashboards to track KPIs such as credit cards
-									sold/hour/partner, daily & monthly sale using Tableau and increased credit cards
-									sold by 15%.
+								<li>
+									Automated reconciliation of cross-system transactions using Python, reducing errors and manual checks.
+								</li>
+								<li>
+									Designed S3 data archival strategy, cutting MongoDB query load by 40% using AWS DMS, Glue, and Athena.
+								</li>
+								<li>
+									Worked in an Agile environment, participating in sprints to drive efficient project execution.
 								</li>
 								<span class="right-container-arrow"></span>
 							</div>
@@ -152,7 +151,7 @@
 								<span class="left-container-arrow"></span>
 							</div>
 						</div>
-						<div class="container right-container">
+<!-- 						<div class="container right-container">
 							<img src="images/kpmg.jpg">
 							<div class="text-box">
 								<h2>KPMG</h2>
@@ -164,7 +163,7 @@
 									visualizations in Tableau. </li>
 								<span class="right-container-arrow"></span>
 							</div>
-						</div>
+						</div> -->
 					</div>
 
 				</div>
@@ -175,9 +174,36 @@
 					<h2 class="major">Projects</h2>
 					<section class="features">
 						<article class="card">
+							<a href="#" class="image"><img src="images/aws.png" alt="" /></a>
+							<h3 class="major">AWS Data Pipeline for Real Estate Data</h3>
+							<p>Orchestrated scalable ETL with Airflow and Lambda to process 1M+ Zillow-like API records into S3/Redshift, enabling QuickSight dashboards that cut property trend query time by 35%.
+							</p>
+
+							<a href="#" class="special">View
+								Project</a>
+						</article>
+						<article class="card">
+							<a href="#" class="image"><img src="images/walmart.png" alt="" /></a>
+							<h3 class="major">Walmart Weekly Sales Forecasting</h3>
+							<p>Modeled ARIMA and Exponential Smoothing for 3 years of sales data, improving forecast accuracy by 10% over baseline.
+							</p>
+
+							<a href="https://github.com/mrtanush18/walmart-forecasting" class="special">View
+								Project</a>
+						</article>
+						<article class="card">
+							<a href="#" class="image"><img src="images/cc.png" alt="" /></a>
+							<h3 class="major">Credit card Fraud Risk Detection</h3>
+							<p>Developed a chronic kidney disease prediction model and designed an interactive web
+								interface using Flask.
+							</p>
+
+							<a href="https://github.com/mrtanush18/credit_card_fraud_detection" class="special">View
+								Project</a>
+						</article>
+						<article class="card">
 							<a href="#" class="image"><img src="images/ckd.png" alt="" /></a>
 							<h3 class="major">Chronic Kidney Disease Prediction</h3>
-							<p>Tools: Python, MS Excel, Flask</p>
 							<p>Developed a chronic kidney disease prediction model and designed an interactive web
 								interface using Flask.
 							</p>
@@ -189,7 +215,6 @@
 							<a href="#" class="image"><img src="images/insider.png" alt="" /></a>
 							<h3 class="major">
 								Insider Trading Dashboard</h3>
-							<p>Tools: Python, Google Sheets, MS Excel, Tableau</p>
 							<p>Scraped, analyzed, and visualized real-time data of 100+ company shares using Python,
 								Yahoo Finance, Google Sheets, and Tableau.
 							</p>
@@ -201,7 +226,6 @@
 						<article class="card">
 							<a href="#" class="image"><img src="images/churn.jpg" alt="" /></a>
 							<h3 class="major">Bank Customer Churn Prediction</h3>
-							<p>Tools: Python, Flask</p>
 							<p>Developed a customer churn prediction model, performing data cleansing and feature
 								extraction on 10,000+ customer
 								records, and built a user-friendly Flask interface for bank managers to drive retention
@@ -214,7 +238,6 @@
 						<article class="card">
 							<a href="#" class="image"><img src="images/stocks.jpg" alt="" /></a>
 							<h3 class="major">Big Tech Stock analysis</h3>
-							<p>Tools: Python, Tableau</p>
 							<p>Performed data manipulation of top performing technology companies’ stock market data of
 								up to 5 years
 								using pandas library and created a Tableau dashboard.
@@ -228,7 +251,6 @@
 						<article class="card">
 							<a href="#" class="image"><img src="images/netflix.jpg" alt="" /></a>
 							<h3 class="major">Netflix content insights</h3>
-							<p>Tools: Excel, Tableau</p>
 							<p> Performed data cleaning and data preprocessing on Excel dataset of 10,000 TV shows &
 								movies and created a Tableau dashboard.</p>
 							<a href="https://public.tableau.com/app/profile/tanush.shetty/viz/Netflixdashboard_16908825549830/Netflix"
@@ -238,7 +260,6 @@
 						<article class="card">
 							<a href="#" class="image"><img src="images/hotel.jpg" alt="" /></a>
 							<h3 class="major">Hotel revenue trends analysis</h3>
-							<p>Tools: SQL, PowerBI</p>
 							<p>PowerBI visualizations of different analytical graphs to understand yearly hotel revenue
 								growth and customer trends</p>
 							<a href="https://github.com/mrtanush18/hotel_revenue_analysis" class="special">View
@@ -247,7 +268,6 @@
 						<article class="card">
 							<a href="#" class="image"><img src="images/youtube.jpg" alt="" /></a>
 							<h3 class="major">YouTube data scraping and analysis</h3>
-							<p>Tools: Python, Excel</p>
 							<p>Extracted and created seaborn visualizations of top Youtube music channels' data to
 								compare channels by different channel metrics and determine relationship between them.
 							</p>

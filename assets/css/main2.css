@@ -18,20 +18,21 @@
 .download-btn {
     display: inline-block;
     background-color: #5b5b5b;
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+
     padding: 14px 28px;
     border-radius: 10px;
     font-weight: 600;
     font-size: 16px;
     text-align: center;
     line-height: 1.2;
-    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .download-btn:hover {
-    background-color: #4a4a4a;
-    transform: translateY(-2px);
+    text-decoration: none !important;
+    border-bottom: none !important;
 }
 
 /* Tablet styles */
@@ -63,4 +64,5 @@
         font-size: 0.9rem;
     }
 }
+
 
